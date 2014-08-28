@@ -21,6 +21,7 @@ module Jdbc
       import "io.crate.client.jdbc"
     end
 
+    #TODO: where is this needed
     # if defined?(JRUBY_VERSION) && # enable backwards-compat behavior :
     #     ( Java::JavaLang::Boolean.get_boolean("jdbc.driver.autoload") ||
     #         Java::JavaLang::Boolean.get_boolean("jdbc.crate.autoload") )
