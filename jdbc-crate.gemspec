@@ -10,6 +10,7 @@ Gem::Specification.new do |gem|
   gem.email = ['ahto@jussila.org']
   gem.homepage = 'http://github.com/ahto/jdbc-crate'
   gem.licenses = ['Apache-2']
+  gem.platform = 'java'
 
   gem.files = [ 'README.md', 'LICENSE.txt', *Dir['lib/**/*'].to_a ]
 
