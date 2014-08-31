@@ -4,7 +4,7 @@ Crate JDBC driver loading for JRuby.
 
 ## Usage
 
-To make the driver accessible to JDBC and Sequel code running in JRuby :
+To make the driver accessible to JDBC and JRuby :
 
     require 'jdbc/crate'
     Jdbc::Crate.load_driver
